@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <math.h>
 #include <stdio.h>
 #define PINT_PER_CUP 2
@@ -84,7 +85,7 @@ void task8(void) {
 	double bigspoon, teaspoon;
 
 	printf("Please you enter a number of cups: ");
-	scanf_s("%lf", &cup);
+	scanf("%lf", &cup);
 	pint = cup / PINT_PER_CUP;
 	ounce = cup * CUP_PER_OUNCE;
 	bigspoon = ounce * OUNCE_PER_BIGSPOON;
