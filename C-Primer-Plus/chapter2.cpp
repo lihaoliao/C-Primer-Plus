@@ -33,8 +33,6 @@ int main(void) {
 	printf("\n");
 	task8();
 	printf("\n");
-	printf("\n");
-	printf("\n");
 }
 
 void task1(void) {
