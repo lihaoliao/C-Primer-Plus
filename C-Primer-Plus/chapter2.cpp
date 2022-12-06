@@ -8,7 +8,7 @@ void deny(void);
 void task5(void);
 void br(void);
 void ic(void);
-void task6();
+void task6(void);
 void task7(void);
 void smile(void);
 void task8(void);
